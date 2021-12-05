@@ -10,10 +10,16 @@
 
 .centerImg {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    
+    transform: translate(-50%,-50%);
+}
 
+.container {
+    position: relative;
+    color: red;
+    text-align: center;
+    font-size: 30px;
 }
 
 footer {
@@ -36,4 +42,12 @@ table, th, td {
 
 th {
     background-color: cyan;
+}
+
+nav {
+    background-color: darkblue;
+    color: #FFF;
+    position: fixed;
+    top: 0%;
+    width: 100%;
 }
