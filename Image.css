@@ -107,6 +107,7 @@ th {
 }
 
 .column {
+    color: pink;
     float:left;     /*moves everything to the left. Like reading a book*/
     width:50%;      /*spaces things into equal parts*/
     padding: 10px;  /*This makes it look nicer*/
