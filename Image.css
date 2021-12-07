@@ -1,7 +1,13 @@
+body {
+    background-color: silver;
+}
+
+
+
+
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     filter: blur(1px);    
     border: 1px solid black;
@@ -43,11 +49,47 @@ table, th, td {
 th {
     background-color: cyan;
 }
-
-nav {
-    background-color: darkblue;
-    color: #FFF;
+            /*Nav*/
+.nav {
     position: fixed;
     top: 0%;
+    right: 0%;
     width: 100%;
+    height: 100%;
+}
+.nav a :hover {
+    background-color: blue;
+}
+
+
+.menu {
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+    list-style: none;   /*Gets rid of dots*/
+    text-decoration: none;
+}
+
+.menu li {
+    color: #000;    /*Text Color*/
+    background-color: red;
+    display: inline-block;
+    margin: 0% auto;
+    overflow: hidden;   /*Hides background if it's outside of block*/
+    position: relative;
+    padding: 10px 3%;
+    border: 2px solid #9D9FA2;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-property: background;    /*States that the background will change*/
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;    /*type of animation*/
+}
+
+/*Columns*/
+
+.row {
+    content:"";
+    display: table;     /*Act like a table*/
 }
