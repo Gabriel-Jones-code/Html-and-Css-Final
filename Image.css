@@ -92,7 +92,8 @@ th {
 .row {
     content:"";
     display: table;     /*Act like a table*/
-    clear: "both";     /*Clear any float prior to this line in any direction*/
+    clear: both;     /*Clear any float prior to this line in any direction*/
+    display:block;  /*Keeps everything in line w/ each other and the page*/
 }
 
 .column {
