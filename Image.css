@@ -109,6 +109,18 @@ th {
 .column {
     color: pink;
     float:left;     /*moves everything to the left. Like reading a book*/
-    width:50%;      /*spaces things into equal parts*/
+    width: 50%;      /*spaces things into equal parts*/
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;  /*This makes it look nicer*/
+}
+
+/*P hover*/
+
+.hovering p:hover {
+    transition-property: text;
+    transition-duration: .6s;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in-out;
 }
