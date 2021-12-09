@@ -10,34 +10,87 @@ body {
 
 
 
-.print p :hover {
+.print p:hover {
     color:springgreen;
 }
 
+/*Old Image code*/
 
-
-.center {
+/*.center img {
     display: block;
-    margin: auto;
+    padding: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+    height: auto;
     filter: blur(1px);    
     border: 1px solid black;
     border-radius: 3px;
 }
 
-.centerImg {
+.fade {
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .3s ease;
+    background-color: gray;
+}
+
+center:hover {
+    opacity: .5;
 }
 
 .container {
-    position: relative;
-    color: red;
+    position: relative;;
+    width: 100%;
     text-align: center;
-    font-size: 30px;
 }
+
+.imgText {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}*/
+
+
+/*New Image code*/
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     font-weight: 500;
