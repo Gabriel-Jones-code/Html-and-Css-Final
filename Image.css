@@ -3,7 +3,9 @@ body {
 }
 
 .print {
+    position: relative;
     color: black;
+    padding: 1px;
 }
 
 
@@ -60,7 +62,7 @@ th {
 }
             /*Nav*/
 .nav {
-    position: fixed;
+    position: absolute;
     top: 0%;
     right: 0%;
     width: 100%;
