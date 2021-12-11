@@ -64,22 +64,54 @@ center:hover {
 
 .container {
     position: relative;
-    width: 50%;
+    width: 512px;
+    height: 512px;
+    margin: 100px auto;
+}
+
+.image {
+    display: block;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 3px;
+    filter: grayscale(.5);
+}
+
+.image img {
+    max-width: 100%;
+    width: 512px;
+    height: 512px;
+}
+
+.textOverlay {
+    color: red;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fade {
+    position: absolute;
+    top: 0;     /*centers onto image as to not go past the border*/
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: black;
+}
+
+.container:hover .fade {
+    opacity: .3;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*Video*/
 
 
 
